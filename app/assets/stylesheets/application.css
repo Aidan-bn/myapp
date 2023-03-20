@@ -59,7 +59,7 @@ nav > h1:hover {
  .menu-nav-link {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 40%;
 }
 
@@ -130,12 +130,12 @@ nav > h1:hover {
 
  .footer-section {
   background-color: rgb(112, 11, 65);
-  height: 90vh;
+  height: 60vh;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
   padding: 20px 10px;
  }
@@ -143,10 +143,10 @@ nav > h1:hover {
  .footer-div {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-between;
-  height: 90%;
-  border-bottom: 1px solid rgb(124, 121, 121);
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
  }
 
 .middle-footer > h5 {
