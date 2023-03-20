@@ -44,7 +44,7 @@ nav {
   height: 10vh;
   background-color: #000101;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 10px 80px;
 }
 
 nav > h1 {
@@ -75,6 +75,56 @@ nav > h1:hover {
 }
 
 /* navigation bar */
+
+
+/* home page middle contents */
+.home-section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.home-section > h2 {
+  text-transform: lowercase;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  color: #505a5a;
+}
+
+.one {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.p-one {
+  border: 1px solid #505a5a;
+  border-radius: 5px;
+  padding: 20px 12px;
+  font-size: 18px;
+}
+
+.p-two {
+  padding: 10px;
+  color: rgb(112, 11, 65);
+  font-family: 'Kanit', sans-serif;;
+}
+
+.donate-link {
+  background-color: rgb(112, 11, 65);
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* home page middle contents */
+
+
 
  /* footer section */
 
