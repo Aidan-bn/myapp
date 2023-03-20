@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get "/home", to: "home#home"
   get "/portfolio", to: "portfolio#portfolio"
   get "/contact", to: "contact#contact"
+  get "/donate", to: "donate#donate"
 end
